@@ -2,11 +2,9 @@ name: Go CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "unknown17" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "unknown17" ]
 
 jobs:
   build:
