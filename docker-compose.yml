@@ -1,0 +1,9 @@
+services:
+  go:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: myapp13
+    image: myapp13
+    ports:
+      - "9001:8080"
